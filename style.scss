@@ -7,16 +7,13 @@ body {
   background: #1E2023;
 }
 
-
 a, a:hover {
   text-decoration: none;
 }
 
-
 p {
   margin-bottom: 0;
 }
-
 
 #header {
   width: 100%;
@@ -75,6 +72,14 @@ p {
         height: 40px;
         border: none;
         color: #FFFFFF;
+
+
+        &:hover {
+          cursor: pointer;
+          background: transparent;
+          color: #9099A3;
+          border: 1px solid #9099A3;
+        }
       }
     }
   }
@@ -116,10 +121,8 @@ p {
       &_2 {
         font-family: $font;
         font-size: 18px;
-        line-height: 27px;
         color: #FFFFFF;
         width: 419px;
-        height: 81px;
       }
 
       &_btn {
@@ -155,13 +158,38 @@ p {
 
   .mission {
     &_title {
-      &_text {
-        font-family: $font;
-        font-weight: 700;
-        line-height: 54px;
-        color: #FFFFFF;
+      font-family: $font;
+      font-weight: 700;
+      line-height: 54px;
+      color: #FFFFFF;
+    }
 
+    &_block1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+
+      &_text1 {
+        padding-top: 40px;
+        font-family: $font;
+        font-size: 14px;
+        text-transform: capitalize;
+        width: 510px;
+        color: #2C3E50;
       }
+
+
+      &_text2 {
+        padding-top: 40px;
+        font-family: $font;
+        font-size: 14px;
+        text-transform: capitalize;
+        width: 370px;
+        color: #2C3E50;
+      }
+
+
     }
 
     &_block {
@@ -170,29 +198,6 @@ p {
       background: #FFFFFF;
       border-radius: 15px;
 
-      &_part1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-        &_text1 {
-          padding-top: 40px;
-          font-family: $font;
-          font-size: 14px;
-          text-transform: capitalize;
-          width: 510px;
-          color: #2C3E50;
-        }
-
-        &_text2 {
-          padding-top: 40px;
-          font-family: $font;
-          font-size: 14px;
-          text-transform: capitalize;
-          width: 370px;
-          color: #2C3E50;
-        }
-      }
 
       &_part2 {
         display: flex;
@@ -201,33 +206,34 @@ p {
 
         &_2 {
           &_text {
-            padding-left: 275px;
 
-            &_title {
-              font-family: $font;
-              font-style: normal;
-              font-weight: bold;
-              font-size: 20px;
-              line-height: 30px;
-              color: #2C3E50;
+          }
+
+          &_title {
+
+            font-family: $font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            color: #2C3E50;
 
 
-            }
+          }
 
-            &_subtitle {
-              font-family: $font;
-              font-size: 14px;
-              color: #2C3E50;
-            }
+          &_subtitle {
+            font-family: $font;
+            font-size: 14px;
+            color: #2C3E50;
+          }
 
-            &_title2 {
-              font-family: $font;
-              font-style: normal;
-              font-weight: bold;
-              font-size: 16px;
-              line-height: 30px;
-              color: #2C3E50;
-            }
+          &_title2 {
+            font-family: $font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 30px;
+            color: #2C3E50;
           }
         }
       }
@@ -317,6 +323,97 @@ p {
 #travel {
 
   .travel {
+
+    &-title {
+      display: flex;
+      justify-content: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFf;
+    }
+
+    &-body {
+      display: flex;
+      justify-content: space-between;
+      width: 1120px;
+      height: 400px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      padding-left: 40px;
+
+    }
+
+    &-block {
+
+
+      &_title {
+        padding-top: 50px;
+        font-family: $font;
+        font-weight: 700;
+        font-size: 20px;
+        color: #000000;
+      }
+
+
+      &_subtitle {
+        padding-top: 10px;
+        font-family: $font;
+        font-size: 14px;
+        color: #000000;
+        width: 423px;
+        padding-left: 0;
+
+      }
+
+      &_vector {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+      }
+
+      &_checkmark {
+        padding-left: 111px;
+      }
+
+
+      &_text {
+        padding-left: 5px;
+        font-family: $font;
+        font-size: 14px;
+        color: #000000;
+
+      }
+
+      &_btn {
+        margin-top: 80px;
+        background: $btnColor;
+        border: 1px solid $btnColor;
+        padding: 10px 20px;
+        border-radius: 15px;
+        transition: .3s;
+        width: 441px;
+        height: 40px;
+        color: #FFFFFF;
+        font-weight: bold;
+
+
+        &:hover {
+          cursor: pointer;
+          background: transparent;
+          color: #9099A3;
+          border: 1px solid #9099A3;
+        }
+      }
+    }
+  }
+}
+
+#invest {
+
+  .invest {
     &-title {
       display: flex;
       justify-content: center;
@@ -353,6 +450,16 @@ p {
         color: #000000;
       }
 
+      &_title {
+        padding-top: 50px;
+        font-family: $font;
+        font-weight: 700;
+        font-size: 20px;
+        color: #000000;
+        padding-left: 0;
+      }
+
+
       &_subtitle {
         padding-top: 10px;
         font-family: $font;
@@ -361,18 +468,20 @@ p {
         width: 423px;
       }
 
+
       &_vector {
         display: flex;
         justify-content: space-around;
         padding-top: 40px;
+        padding-left: 0;
       }
+
+
 
       &_checkmark {
         padding-left: 10px;
       }
 
-      &_chek {
-      }
 
       &_text {
         padding-left: 5px;
@@ -408,8 +517,13 @@ p {
 
 #participant {
 
-
+  
   .participant {
+
+    &-block {
+      overflow-y: scroll;
+    }
+
     &-title {
       display: flex;
       justify-content: center;
@@ -456,6 +570,7 @@ p {
 #process {
 
   .process {
+
     &-title {
       display: flex;
       justify-content: center;
@@ -729,11 +844,13 @@ p {
         font-family: $font;
         font-size: 16px;
         color: #9099A3;
-        width: 280px;
+        width: 600px;
       }
 
+
+
       &_btn {
-        width: 280px;
+        width: 100%;
         height: 60px;
         background: #1A5CFF;
         box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
@@ -796,7 +913,7 @@ p {
 
     .faq-text {
       display: none;
-      width: 660px;
+      width: 100%;
       padding: 10px 15px;
       color: #fff3cd;
       font-size: 14px;
@@ -960,7 +1077,7 @@ p {
     &-btn2 {
       position: absolute;
       margin: -10px 180px;
-      width: 100px;
+      width: 99px;
       height: 40px;
       background: #1A5CFF;
       box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);

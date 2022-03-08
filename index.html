@@ -62,18 +62,16 @@
 <section id="mission">
     <div class="container">
         <div class="mission">
-            <div class="mission_title">
-                <h1 class="mission_title_text">МИССИЯ КЛУБА</h1>
-            </div>
+                <h1 class="mission_title">МИССИЯ КЛУБА</h1>
             <div class="mission_block">
-                <div class="mission_block_part1">
-                    <p class="mission_block_part1_text1">Кайдзен Клуб - это масштабный, международный бизнес-
+                <div class="mission_block1">
+                    <p class="mission_block1_text1">Кайдзен Клуб - это масштабный, международный бизнес-
                         клуб. Это специально разработанная экосистема продуктов,
                         материалов и нетворкинга для развития и масштабирования
                         бизнеса, взаимной поддержки, взаимопомощи и продвижения
                         друг друга, развития связей и усиления безопасности бизнеса
                         предпринимателей и топ-менеджеров.</p>
-                    <p class="mission_block_part1_text2">
+                    <p class="mission_block1_text2">
                         Каждый член клуба не просто перенимает чужой
                         опыт и делится своими кейсами и компетенциями,
                         но и заботится о развитии других членов Клуба
@@ -142,8 +140,7 @@
                         <h3 class="format-block_title">Слеты клуба с участием резидентов со всего мира</h3>
                         <p class="format-block_subtitle">Слеты проводятся 2 раза в год в формате ма сштабных форумов,
                             pre-party, after-party c Маргуланом. Локации: Анталия, ОАЭ и другие</p>
-                        <button class="format-block_btn"> Подробнее <img class="format-block_btn_arrow"
-                                                                         src="./img/formatbtnarrow.svg" alt=""></button>
+                        <button class="format-block_btn"> Подробнее <img class="format-block_btn_arrow" src="./img/formatbtnarrow.svg" alt=""></button>
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-12">
@@ -241,30 +238,30 @@
     </div>
 </section>
 
-<section id="travel">
+<section id="invest">
     <div class="container">
         <div class="travel">
-            <h1 class="travel-title">ИНВЕСТ КЛУБ</h1>
-            <div class="travel-body">
-                <div class="travel-block">
-                    <img class="travel-block_img2" src="./img/investimg.png" alt="">
+            <h1 class="invest-title">ИНВЕСТ КЛУБ</h1>
+            <div class="invest-body">
+                <div class="invest-block">
+                    <img class="invest-block_img2" src="./img/investimg.png" alt="">
                 </div>
-                <div class="travel-block">
-                    <div class="travel-block_title">Путешествия по всему миру</div>
-                    <div class="travel-block_subtitle">Трансформационные экспедиционные туры с Маргуланом и другими
+                <div class="invest-block">
+                    <div class="invest-block_title">Путешествия по всему миру</div>
+                    <div class="invest-block_subtitle">Трансформационные экспедиционные туры с Маргуланом и другими
                         известными экспертами в бизнесе, переговорах, инвестициях и личной эффективности
                     </div>
-                    <div class="travel-block_vector">
-                        <div class="travel-block_checkmark">
-                            <img class="travel-block_chek" src="./img/vector%20mission.svg" alt="">
-                            <span class="travel-block_text"> Новые яркие эмоции и инсайты</span>
+                    <div class="invest-block_vector">
+                        <div class="invest-block_checkmark">
+                            <img class="invest-block_chek" src="./img/vector%20mission.svg" alt="">
+                            <span class="invest-block_text"> Новые яркие эмоции и инсайты</span>
                         </div>
-                        <div class="travel-block_checkmark">
-                            <img class="travel-block_chek" src="./img/vector%20mission.svg" alt="">
-                            <span class="travel-block_text"> Переосмысление текущих задач и планов</span>
+                        <div class="invest-block_checkmark">
+                            <img class="invest-block_chek" src="./img/vector%20mission.svg" alt="">
+                            <span class="invest-block_text"> Переосмысление текущих задач и планов</span>
                         </div>
                     </div>
-                    <button class="travel-block_btn">Подробнее</button>
+                    <button class="invest-block_btn">Подробнее</button>
                 </div>
             </div>
         </div>
@@ -274,7 +271,7 @@
 <section id="participant">
     <div class="participant">
         <h1 class="participant-title">ГЕОГРАФИЯ УЧАСТНИКОВ</h1>
-
+    <div class="participant-block">
         <div class="participant-row">
             <span class="participant-subtitle">Москва</span>
             <span class="participant-subtitle">Кыргызстан</span>
@@ -297,6 +294,8 @@
             <span class="participant-subtitle">Кадамжай</span>
             <span class="participant-subtitle">Караганда</span>
         </div>
+    </div>
+
     </div>
 </section>
 
@@ -459,7 +458,9 @@
                 <div class="col-xxl-6 col-xl-6 col-lg-12">
                     <div class="help-block2">
                         <p class="help-text">ФИО *</p>
-                        <input type="text" name="name" placeholder="Иван Петров" class="help-btn ">
+                        <label>
+                         <input type="text" name="name" placeholder="Иван Петров" class="help-btn ">
+                        </label>
                         <p class="help-text">Номер телефона *</p>
                         <button class="help-btn">
                             <img src="./img/helpflag.svg" alt="">
@@ -467,7 +468,9 @@
                             +996 550 01 22 08
                         </button>
                         <p class="help-text">E-mail *</p>
+                        <label>
                         <input type="email" name="email" placeholder="example@mail.com" class="help-btn">
+                        </label>
                         <div class="help-down">
                             <p class="help-down_subtitle">Ваши данные надежно защищены
                                 и не будут переданы третьим лицам</p>
@@ -529,8 +532,8 @@
 
                     <div class="col-xxl-10 col-xl-10 col-lg-12">
                         <div class="faq-item">
-                            <input type="checkbox" class="faq-input" id="faq_2">
-                            <label class="faq-title" for="faq_2">Смогу ли я, уже купив месячную подписку, перейти на
+                            <input type="checkbox" class="faq-input" id="faq_3">
+                            <label class="faq-title" for="faq_3">Смогу ли я, уже купив месячную подписку, перейти на
                                 годовую?
                             </label>
                             <div class="faq-text">
@@ -547,8 +550,8 @@
 
                     <div class="col-xxl-10 col-xl-10 col-lg-12">
                         <div class="faq-item">
-                            <input type="checkbox" class="faq-input" id="faq_2">
-                            <label class="faq-title" for="faq_2">Как я могу получить доступ ко всем курсам Платформы
+                            <input type="checkbox" class="faq-input" id="faq_4">
+                            <label class="faq-title" for="faq_4">Как я могу получить доступ ко всем курсам Платформы
                                 Маргулана?
                             </label>
                             <div class="faq-text">
@@ -565,8 +568,8 @@
 
                     <div class="col-xxl-10 col-xl-10 col-lg-12">
                         <div class="faq-item">
-                            <input type="checkbox" class="faq-input" id="faq_2">
-                            <label class="faq-title" for="faq_2">А платформа обновляется?
+                            <input type="checkbox" class="faq-input" id="faq_5">
+                            <label class="faq-title" for="faq_5">А платформа обновляется?
                             </label>
                             <div class="faq-text">
                                 <p> Margulan.info – это уникальная экосистема и персональная социальная сеть,--> которая
@@ -582,8 +585,8 @@
 
                     <div class="col-xxl-10 col-xl-10 col-lg-12">
                         <div class="faq-item">
-                            <input type="checkbox" class="faq-input" id="faq_2">
-                            <label class="faq-title" for="faq_2">Могу ли я вернуть деньги?
+                            <input type="checkbox" class="faq-input" id="faq_6">
+                            <label class="faq-title" for="faq_6">Могу ли я вернуть деньги?
                             </label>
                             <div class="faq-text">
                                 <p> Margulan.info – это уникальная экосистема и персональная социальная сеть,--> которая
@@ -638,7 +641,9 @@
                     <p class="footer-title3">Подписка на новости</p>
 
                     <button class="footer-btn2">Войти</button>
+                    <label>
                     <input type="email" placeholder="Ваш e-mail" class="footer-input">
+                    </label>
                     <p class="footer-subtitle">ИП Сейсембай, г.Алматы, мкр. Нурлытау,
                         ул. Мерген, 93.
                         Идентификационный код: 661102300013</p>
@@ -665,7 +670,6 @@
         </div>
     </div>
 </section>
-
 
 <script src="js/bootstrap.min.js"></script>
 </body>
